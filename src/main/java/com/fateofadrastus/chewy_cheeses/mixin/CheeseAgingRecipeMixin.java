@@ -29,6 +29,10 @@ public class CheeseAgingRecipeMixin {
             original.add(new CheeseAgingRecipe(Registry.UNRIPE_GLOWSHROOM_CHEESE_WHEEL_ITEM.get(), Registry.GLOWSHROOM_CHEESE_WHEEL_ITEM.get()));
         if (Registry.UNRIPE_SHULKER_CHEESE_WHEEL_ITEM != null && Registry.SHULKER_CHEESE_WHEEL_ITEM != null)
             original.add(new CheeseAgingRecipe(Registry.UNRIPE_SHULKER_CHEESE_WHEEL_ITEM.get(), Registry.SHULKER_CHEESE_WHEEL_ITEM.get()));
+        if (Registry.UNRIPE_CHEDDAR_CHEESE_WHEEL_ITEM != null && Registry.CHEDDAR_CHEESE_WHEEL_ITEM != null)
+            original.add(new CheeseAgingRecipe(Registry.UNRIPE_CHEDDAR_CHEESE_WHEEL.get(), Registry.CHEDDAR_CHEESE_WHEEL_ITEM.get()));
+        if (Registry.UNRIPE_GOAT_CHEESE_WHEEL_ITEM != null && Registry.GOAT_CHEESE_WHEEL_ITEM != null)
+            original.add(new CheeseAgingRecipe(Registry.UNRIPE_GOAT_CHEESE_WHEEL.get(), Registry.GOAT_CHEESE_WHEEL_ITEM.get()));
 
         original.add(new CheeseAgingRecipe(Registry.UNRIPE_PITCHER_CHEESE_WHEEL_ITEM.get(), Registry.PITCHER_CHEESE_WHEEL_ITEM.get()));
 
