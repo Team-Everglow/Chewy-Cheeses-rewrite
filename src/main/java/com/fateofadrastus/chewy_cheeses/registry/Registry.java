@@ -23,6 +23,7 @@ import net.yirmiri.dungeonsdelight.core.registry.DDItems;
 import umpaz.brewinandchewin.common.block.CheeseWheelBlock;
 import umpaz.brewinandchewin.common.block.UnripeCheeseWheelBlock;
 import umpaz.brewinandchewin.neoforge.fluid.BnCFluidType;
+import alabaster.hearthandharvest.common.registry.HHModItems;
 
 public class Registry {
 
@@ -95,6 +96,12 @@ public class Registry {
     public static final DeferredHolder<Fluid, BaseFlowingFluid.Source> SHULKER_CHEESE;
     public static final DeferredHolder<Fluid, BaseFlowingFluid.Flowing> FLOWING_SHULKER_CHEESE;
     public static final BaseFlowingFluid.Properties SHULKER_CHEESE_FLUID_PROPERTIES;
+
+    // Hearth and Harvest
+    public static Item getGoatCheeseWheelItem() { return HHModItems.GOAT_CHEESE_WHEEL.get(); }
+    public static Item getUnripeGoatCheeseWheelItem() { return HHModItems.UNRIPE_GOAT_CHEESE_WHEEL.get(); }
+    public static Item getCheddarCheeseItem() { return HHModItems.CHEDDAR_CHEESE_WHEEL.get(); }
+    public static Item getUnripeCheddarCheeseItem() { return HHModItems.UNRIPE_CHEDDAR_CHEESE_WHEEL.get(); }
 
     // minecraft
     public static final FoodProperties PITCHER_CHEESE_PROPERITIES;
