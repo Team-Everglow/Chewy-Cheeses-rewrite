@@ -153,6 +153,9 @@ dependencies {
     compileOnly "maven.modrinth:farmers-pizzeria:1.1.0"
     //localRuntime "maven.modrinth:farmers-pizzeria:1.1.0"
 
+    compileOnly "maven.modrinth:hearthandharvest:1.2.2b"
+    //localRuntime "maven.modrinth:hearthandharvest:1.2.2b"
+
     compileOnly "maven.modrinth:enders-delight:1.2.0"
     localRuntime "maven.modrinth:enders-delight:1.2.0"
 
